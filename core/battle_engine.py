@@ -60,6 +60,10 @@ def load_local_image_as_base64(filename: str) -> str:
     """로컬 캐릭터 이미지 파일을 512x512 base64로 반환"""
     path = os.path.join(CHARACTER_IMG_DIR, filename)
     if not os.path.exists(path):
+        logger.warning("로컬 이미지 없음: %s (경로: %s, 디렉토리 존재: %s)",
+                       filename, path, os.path.exists(CHARACTER_IMG_DIR))
+        if os.path.exists(CHARACTER_IMG_DIR):
+            logger.warning("디렉토리 내 파일: %s", os.listdir(CHARACTER_IMG_DIR))
         return ""
     img = Image.open(path)
     img = img.resize((512, 512), Image.LANCZOS)
