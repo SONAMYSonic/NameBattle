@@ -21,6 +21,21 @@ CHARACTER_IMG_DIR = os.path.join(_PROJECT_ROOT, "assets", "images", "characters"
 
 logger = logging.getLogger(__name__)
 
+# 시작 시 캐릭터 이미지 디렉토리 진단
+print(f"[DIAG] PROJECT_ROOT: {_PROJECT_ROOT}")
+print(f"[DIAG] CHARACTER_IMG_DIR: {CHARACTER_IMG_DIR}")
+print(f"[DIAG] DIR exists: {os.path.exists(CHARACTER_IMG_DIR)}")
+if os.path.exists(CHARACTER_IMG_DIR):
+    _files = os.listdir(CHARACTER_IMG_DIR)
+    print(f"[DIAG] Files ({len(_files)}): {_files}")
+else:
+    print("[DIAG] CHARACTER_IMG_DIR does NOT exist!")
+    # 상위 디렉토리 확인
+    _parent = os.path.dirname(CHARACTER_IMG_DIR)
+    print(f"[DIAG] Parent dir exists: {os.path.exists(_parent)}")
+    if os.path.exists(_parent):
+        print(f"[DIAG] Parent contents: {os.listdir(_parent)}")
+
 
 def _cache_key(name: str) -> str:
     """캐릭터 이름으로 캐시 파일 경로 반환"""
