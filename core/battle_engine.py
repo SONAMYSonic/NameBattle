@@ -15,9 +15,9 @@ from core.models import Fighter, BattleResult, BattleRound
 from services.ai_service import generate_battle_story, generate_character_image
 from services.tts_service import generate_tts_audio
 
-IMAGE_CACHE_DIR = os.path.join(
-    os.path.dirname(os.path.dirname(__file__)), "assets", "images", "generated"
-)
+_PROJECT_ROOT = os.path.dirname(os.path.dirname(__file__))
+IMAGE_CACHE_DIR = os.path.join(_PROJECT_ROOT, "assets", "images", "generated")
+CHARACTER_IMG_DIR = os.path.join(_PROJECT_ROOT, "assets", "images", "characters")
 
 logger = logging.getLogger(__name__)
 
@@ -54,6 +54,18 @@ def save_cached_image(name: str, b64: str) -> None:
         logger.info("이미지 캐시 저장: %s", name)
     except Exception as e:
         logger.warning("이미지 캐시 저장 실패: %s", e)
+
+
+def load_local_image_as_base64(filename: str) -> str:
+    """로컬 캐릭터 이미지 파일을 512x512 base64로 반환"""
+    path = os.path.join(CHARACTER_IMG_DIR, filename)
+    if not os.path.exists(path):
+        return ""
+    img = Image.open(path)
+    img = img.resize((512, 512), Image.LANCZOS)
+    buffer = io.BytesIO()
+    img.save(buffer, format="PNG")
+    return base64.b64encode(buffer.getvalue()).decode("utf-8")
 
 
 def download_image_as_base64(url: str) -> str:
@@ -142,8 +154,21 @@ def execute_battle(
             logger.warning("플레이어 이미지 생성 실패: %s", e)
             player.image_base64 = ""
 
-    # 4단계: 상대 이미지 (image_url > user_character > 캐시 > DALL-E)
-    if opponent.image_url:
+    # 4단계: 상대 이미지 (로컬파일 > image_url > user_character > 캐시 > DALL-E)
+    _loaded_local = False
+    if opponent.image_file:
+        _progress(4, f"{opponent.name}의 캐릭터 이미지를 불러오고 있습니다...")
+        try:
+            img_data = load_local_image_as_base64(opponent.image_file)
+            if img_data:
+                opponent.image_base64 = img_data
+                _loaded_local = True
+            else:
+                logger.warning("로컬 이미지 파일 없음: %s", opponent.image_file)
+        except Exception as e:
+            logger.warning("로컬 이미지 로드 실패: %s", e)
+
+    if not _loaded_local and opponent.image_url:
         _progress(4, f"{opponent.name}의 캐릭터 이미지를 불러오고 있습니다...")
         opp_cached = load_cached_image(opponent.name)
         if opp_cached:

@@ -45,10 +45,14 @@ def generate_tts_audio(
     if victory_line and winner_name:
         tts_text += f"\n\n{winner_name}이 외친다. {victory_line}"
 
-    client = Typecast(api_key=api_key)
-    response = client.text_to_speech(TTSRequest(
-        text=tts_text,
-        model=TYPECAST_MODEL,
-        voice_id=TYPECAST_VOICE_ID,
-    ))
-    return response.audio_data
+    try:
+        client = Typecast(api_key=api_key)
+        response = client.text_to_speech(TTSRequest(
+            text=tts_text,
+            model=TYPECAST_MODEL,
+            voice_id=TYPECAST_VOICE_ID,
+        ))
+        return response.audio_data
+    except Exception as e:
+        logger.warning("TTS 생성 실패 (API 키 소진 또는 서비스 오류): %s", e)
+        return None

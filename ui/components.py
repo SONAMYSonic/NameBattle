@@ -34,7 +34,7 @@ def render_fighter_card(name: str, title: str, image_b64: str, is_winner: bool |
     if image_b64:
         st.image(
             base64.b64decode(image_b64),
-            use_container_width=True,
+            width="stretch",
         )
     else:
         # 내장 SVG 플레이스홀더

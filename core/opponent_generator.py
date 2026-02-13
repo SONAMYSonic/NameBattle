@@ -147,6 +147,7 @@ def pick_opponent(
                 source="predefined",
                 appearance_prompt=chosen.get("appearance_prompt", ""),
                 image_url=chosen.get("image_url", ""),
+                image_file=chosen.get("image_file", ""),
             )
 
     # 랜덤 생성

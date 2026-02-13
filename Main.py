@@ -140,7 +140,7 @@ if st.session_state.phase == "home":
         start_btn = st.button(
             "\u2694\uFE0F 결투 시작!",
             type="primary",
-            use_container_width=True,
+            width="stretch",
             disabled=not user_name,
         )
 

@@ -11,6 +11,7 @@ class Fighter:
     description: str = ""
     image_base64: str = ""
     image_url: str = ""  # 외부 이미지 URL (있으면 DALL-E 생성 건너뜀)
+    image_file: str = ""  # 로컬 이미지 파일명 (assets/images/characters/ 내)
     stats: dict = field(default_factory=dict)
     source: str = "random"  # "predefined", "random", "user_character"
     creator_name: Optional[str] = None
