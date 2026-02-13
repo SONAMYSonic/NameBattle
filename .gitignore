@@ -1,0 +1,10 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+.idea/
+data/battle_history.db
+assets/images/generated/
+nul
+.claude/
