@@ -155,14 +155,20 @@ def execute_battle(
             player.image_base64 = ""
 
     # 4단계: 상대 이미지 (로컬파일 > image_url > user_character > 캐시 > DALL-E)
+    _loaded_local = False
     if opponent.image_file:
         _progress(4, f"{opponent.name}의 캐릭터 이미지를 불러오고 있습니다...")
         try:
-            opponent.image_base64 = load_local_image_as_base64(opponent.image_file)
+            img_data = load_local_image_as_base64(opponent.image_file)
+            if img_data:
+                opponent.image_base64 = img_data
+                _loaded_local = True
+            else:
+                logger.warning("로컬 이미지 파일 없음: %s", opponent.image_file)
         except Exception as e:
             logger.warning("로컬 이미지 로드 실패: %s", e)
-            opponent.image_base64 = ""
-    elif opponent.image_url:
+
+    if not _loaded_local and opponent.image_url:
         _progress(4, f"{opponent.name}의 캐릭터 이미지를 불러오고 있습니다...")
         opp_cached = load_cached_image(opponent.name)
         if opp_cached:
