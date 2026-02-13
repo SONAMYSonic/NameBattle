@@ -114,6 +114,7 @@
       "description": "떡잎마을의 5살 악동. 부리부리 기술로 상대를 압도하며, 예측불가의 행동으로 혼란을 준다.",
       "category": "anime",
       "image_url": "https://i.namu.wiki/i/LA5aDQHvG2lkFlJ2VLI44QXyiYcF8nC32sn9O6yc2tnbydT07gV_4pqhyeiF6VsEKOWr2UHEXyRDSSZpgpszBsJri89g2kYMV_Wtm_AkDRdM75DMAbeSoSYQI2JK4cY7eceg2wrypywhq8C0LuXuDQ.webp",
+      "image_file": "ShinChan.webp",
       "stats": {"attack": 65, "defense": 40, "speed": 88, "luck": 99, "charisma": 90},
       "rarity": "rare",
       "appearance_prompt": "Mischievous 5-year-old boy with thick eyebrows and round face, yellow shirt and red shorts, silly action pose, playful expression, crayon shin-chan style"
@@ -124,6 +125,7 @@
       "description": "짱구의 아버지. 평범한 샐러리맨이지만 음식 영역전개를 펼치면 어떤 상대도 굴복시킨다.",
       "category": "anime",
       "image_url": "https://i.namu.wiki/i/l-YxcGIE_yXE3M9RYdkE7rWv3w8rklkX105nuhI9f8qS3upmfXQUvEAq88dB04ACwPHDA7bxKZvfDF7qEA9s2Z4V59GW1Mlx1sPI11mF_JcikgT2hNCrEmxWXCj-u5AeC1QoGjtz4lMkEtFiymdbMA.webp",
+      "image_file": "신형만.png",
       "stats": {"attack": 55, "defense": 70, "speed": 45, "luck": 80, "charisma": 65},
       "rarity": "common",
       "appearance_prompt": "Tired Japanese salaryman in brown suit, holding chopsticks as weapon, surrounded by floating food dishes, determined expression, comedy anime style"
@@ -134,6 +136,7 @@
       "description": "소닉 더 헤지혹. 음속을 넘는 스피드로 달리며, 스핀 어택으로 모든 것을 관통한다.",
       "category": "anime",
       "image_url": "https://i.namu.wiki/i/FYPP-T-9ntck60VhSnEgK7uP9o86HF6CuY-Ig1bCZRPiWQ8PBzQmPq1f3DfzkjDtxUBLGdPRLY1pJA0N73CZCey9meg1ntmYet4gSzUTpg8qfKnTuADUHG5y0opJ39UYWACUIW52mO1WJb-qDxvwgQ.webp",
+      "image_file": "Sonic.png",
       "stats": {"attack": 80, "defense": 50, "speed": 99, "luck": 75, "charisma": 88},
       "rarity": "legendary",
       "appearance_prompt": "Blue hedgehog running at supersonic speed, spiky blue quills, red sneakers, golden rings flying around, speed blur effect, determined grin"
@@ -144,6 +147,7 @@
       "description": "짱구네 강아지. 귀여운 외모 뒤에 숨겨진 무시무시한 전투 본능이 있다.",
       "category": "anime",
       "image_url": "https://i.namu.wiki/i/MGfmMCCdb2ZlXKJuv0heQ0LGk6XWbHfDT14P_MMsSaML_x4xN1O_XcPg1VcnzZ7bVr7NG0-XpPjxd9ef72okcF4kRHOGJ_jzclPmRHjdtncNGMDPFSkpIarCO_MalwIPSQdwPqqwD42bsevNaqfqug.webp",
+      "image_file": "흰둥이.webp",
       "stats": {"attack": 50, "defense": 60, "speed": 75, "luck": 95, "charisma": 99},
       "rarity": "common",
       "appearance_prompt": "Small cute white fluffy dog with big round eyes, sitting cutely but with a fierce battle aura glowing around, crayon style illustration"
@@ -154,6 +158,7 @@
       "description": "명탐정 코난. 몸은 어린아이, 두뇌는 어른. 추리력으로 상대의 약점을 간파한다.",
       "category": "anime",
       "image_url": "https://i.namu.wiki/i/L86bkYKbioHoELUbW_NF_z1n240Iws73Dhr5kT9-8HFf4Fr4s82JTpCOy5ciRkUcFfy34RgnrWKslyWPu5qC2AwsrJMN-u1u0kJ7h2sL-u8_PQgCKM3uWhqw3ve5jHOOkA-m-436Mj6FXaD1yKgfwg.webp",
+      "image_file": "Konan.webp",
       "stats": {"attack": 60, "defense": 65, "speed": 80, "luck": 70, "charisma": 85},
       "rarity": "epic",
       "appearance_prompt": "Small boy detective in blue suit and red bowtie, oversized glasses, holding a soccer ball, confident detective pose, magnifying glass glowing"
@@ -164,6 +169,7 @@
       "description": "귀멸의 칼날의 주인공. 물의 호흡으로 도깨비를 베며, 강인한 의지로 절대 포기하지 않는다.",
       "category": "anime",
       "image_url": "https://i.namu.wiki/i/qWkKa4VA9eAoee5KxM9nbcL7djPmvApqBmwMpWzADjYlxA0qIM8JITZBUbbiUoikAGMcs1ezjKEnMG4zGHgzc7m9UCq9gnOaEy1se0n9iRV9Mg22DhIMB5d3QWVVCENOmc26hIYbC5yi_VRnQfRigw.webp",
+      "image_file": "탄지로.webp",
       "stats": {"attack": 88, "defense": 75, "speed": 82, "luck": 60, "charisma": 85},
       "rarity": "epic",
       "appearance_prompt": "Young demon slayer with checkered green-black haori, scar on forehead, wielding black nichirin sword, water breathing effects swirling around blade"
@@ -173,7 +179,8 @@
       "title": "불꽃의 주",
       "description": "귀멸의 칼날 염주. 불꽃의 호흡의 달인으로, 타오르는 검격은 모든 것을 태운다.",
       "category": "anime",
-      "image_url": "https://i.namu.wiki/i/y2Gw_MjevqrKmtff6le5c0nbc3SnYVPXDhMEiOcJroD_-DrYxQqvZMNJbFD5J7IiumAr_3Uk2h5aDmQtoLeQOroPn0549mCRyji1iLXMI2cLNXBBf4f-4vvZUUWorTOscMZpk1FWUsvizV1LhhMPxQ.webp",
+      "image_url": "https://image-cdn.hypb.st/https%3A%2F%2Fkr.hypebeast.com%2Ffiles%2F2024%2F10%2F15%2Fdemon-slayer-adidas-rengoku-kyojuro-uzui-tengen-rivalry-release-date-ft.jpg?fit=max&cbr=1&q=90&w=750&h=500",
+      "image_file": "Renkoku.webp",
       "stats": {"attack": 95, "defense": 80, "speed": 78, "luck": 55, "charisma": 92},
       "rarity": "legendary",
       "appearance_prompt": "Flame Hashira with golden-red flame hair, fiery eyes, wielding flaming katana, flame breathing fire effects, white cape flowing, intense warrior spirit"
@@ -184,6 +191,7 @@
       "description": "주술회전 최강. 무량공처와 육안으로 모든 술식을 무효화하는 현대 최강의 주술사.",
       "category": "anime",
       "image_url": "https://i.namu.wiki/i/H94Pxnckt9TfSdBXJDHextic87-VGrDvN8G2AhHzU10r5H6ezn9LNeGh35hSPfs1WowE5zS1S4Na2kpDO8O8-Efd5ckQbL-H7yh8zHjx1K6ObLVgk6R8gRZ3Kn4n4ydnkbQFR0pp_dSF3D0RON1jNg.webp",
+      "image_file": "Satoru.png",
       "stats": {"attack": 99, "defense": 99, "speed": 90, "luck": 65, "charisma": 95},
       "rarity": "legendary",
       "appearance_prompt": "Tall white-haired sorcerer with bright blue glowing eyes, black blindfold around neck, wearing dark uniform, infinite void purple sphere behind, confident smirk"
@@ -194,6 +202,7 @@
       "description": "주술회전의 주인공. 초인적인 신체능력에 스쿠나의 힘까지 더해진 주술고전의 1학년.",
       "category": "anime",
       "image_url": "https://i.namu.wiki/i/Ixydrvin4_Uohv9V8icrvNudvkMQxD0sC-7GfR6EUCVagivhsR-pB1B7nmLDey2AjPlYo8zbjUChh7jUCoWn-p69js6JBSi9AIzAWHg8Ew3PSve6gk7Y9BOC75uYRaY3p4Mff8Xsj8egPJDibYtMkA.webp",
+      "image_file": "이타도리유지.webp",
       "stats": {"attack": 85, "defense": 70, "speed": 90, "luck": 55, "charisma": 78},
       "rarity": "epic",
       "appearance_prompt": "Athletic young man with pink spiky hair, black uniform, cursed energy aura, Sukuna markings appearing on face, powerful fighting stance"
@@ -204,6 +213,7 @@
       "description": "은혼의 주인공. 백야차라 불리는 전설의 사무라이. 딸기우유를 사랑하며 목검으로 싸운다.",
       "category": "anime",
       "image_url": "https://i.namu.wiki/i/u8p55Iw-7lVMmRRYhDNFB8WAE1Qq-oAjrBX_6okJXKG17-CxSJam0yparI1TBEhcw-5ciegWdbki6zNBm0JV-C5epLmiNC-zy5E3bTjprb9m9OvLGkgl5wzEaIoh8Q26YUgb7O6jAYT_MlkNhPsZAw.webp",
+      "image_file": "사카타긴토키.jpeg",
       "stats": {"attack": 90, "defense": 72, "speed": 80, "luck": 88, "charisma": 92},
       "rarity": "epic",
       "appearance_prompt": "Silver-haired samurai with dead fish eyes and white yukata, wooden sword bokuto, holding strawberry milk, lazy but powerful aura, comedy-action pose"
@@ -214,6 +224,7 @@
       "description": "은혼의 히로인. 우주 최강 전투민족 야토족의 소녀. 우산 한 자루로 전장을 지배한다.",
       "category": "anime",
       "image_url": "https://i.namu.wiki/i/voRPdFTWRMebG3MpnXn5nFtA14cotNU2EBp53Der7DVPDOsm99WP-1Nw-mZJvrvyeTlwGGVIxVVz6WbQFR94gI42hR0X6jgIlHKFSvAgk9weVtIp5wwuGPCMLuHMPTPgZL0uRYq_zq-Fbg-6QqaJjA.webp",
+      "image_file": "카구라.webp",
       "stats": {"attack": 92, "defense": 65, "speed": 85, "luck": 70, "charisma": 80},
       "rarity": "epic",
       "appearance_prompt": "Young girl with orange hair in buns, Chinese dress in red, holding a purple umbrella weapon, super strength aura, cheeky smile"
@@ -224,6 +235,7 @@
       "description": "우즈마키 나루토. 구미호의 힘을 지닌 닌자. 그림자 분신술과 나선환으로 세계를 구했다.",
       "category": "anime",
       "image_url": "https://i.namu.wiki/i/rlSgl4D0L_sEnW66xiVEn0Bnk-poRmrOAFBqbcWRRdXZo42CHgnEwQjJoOmZTwiO64wueWlK2pJ2oaZR0J6v6Wtt9TBv_xJ7Ig9C7of46ns7En-MQ3yjg9cEosmQTYA4Yq-LkOIPrnFTzVY7eMEk_g.webp",
+      "image_file": "나루토.webp",
       "stats": {"attack": 95, "defense": 80, "speed": 92, "luck": 70, "charisma": 90},
       "rarity": "legendary",
       "appearance_prompt": "Blonde ninja in orange and black outfit, whisker marks on cheeks, sage mode orange eye shadow, giant rasengan in hand, nine-tails chakra cloak glowing"
@@ -234,6 +246,7 @@
       "description": "나루토의 라이벌. 사륜안의 힘으로 모든 술을 꿰뚫어보는 우치하 일족의 천재.",
       "category": "anime",
       "image_url": "https://i.namu.wiki/i/LatGZO_dm8rKWDSR3mhGWgb-k_AGD_0QzQxENqtoYAgzduVJZpN5ceLu4ut_YRjn273tPh7Nw8B3BlB38TFS30lE1yzX4zCOv0Z_ogMTEErdfkFpx76nEFpMiMhhGYGiEdQVE6EELTROhNeByWzWog.webp",
+      "image_file": "사스케.webp",
       "stats": {"attack": 93, "defense": 75, "speed": 90, "luck": 60, "charisma": 82},
       "rarity": "legendary",
       "appearance_prompt": "Dark-haired ninja with sharingan red eyes, lightning chidori in hand, dark blue outfit, Susanoo purple aura behind, intense cold stare"
@@ -244,6 +257,7 @@
       "description": "나루토의 스승. 천 개의 술을 복사한 카피닌자. 사륜안과 번개를 다루는 전설의 조닌.",
       "category": "anime",
       "image_url": "https://i.namu.wiki/i/DOySEooznEMI5JiejU7X4dRFnGXWy0MIIkAmwRt-hQp8mNI6-21NDpQeJJaTygLTYEetVpDaXPKVy-k1ET7Ck8JTCB8jVEyaydGQNuvgt1s0lbZ0fmdsVFJ_uFxIhYKFCuemEN9peXcqPh6NoTjH1g.webp",
+      "image_file": "카카시.webp",
       "stats": {"attack": 88, "defense": 78, "speed": 85, "luck": 72, "charisma": 88},
       "rarity": "epic",
       "appearance_prompt": "Silver-haired ninja with mask covering lower face, one sharingan eye exposed, lightning blade in hand, reading a book casually, cool relaxed pose"
@@ -254,6 +268,7 @@
       "description": "원피스의 주인공. 고무고무 열매의 능력자. 기어 5로 태양신 니카의 힘을 발현한다.",
       "category": "anime",
       "image_url": "https://i.namu.wiki/i/Sf5EKsIWtFzUwQxqQg-IUgpmP7XPLwxrUaXf0_8FcQR3aoC2MYtGdlLxbCzBdb5Clvcido48zR_MreSujwPLojg5UG2vv5S49Oxlm5Sb3nHhWq_D0V5DrhcAub297ALtRYfBms7bT50gJkpSkIfE9w.webp",
+      "image_file": "루피.webp",
       "stats": {"attack": 92, "defense": 70, "speed": 88, "luck": 95, "charisma": 95},
       "rarity": "legendary",
       "appearance_prompt": "Rubber pirate boy with straw hat, red vest and blue shorts, stretching fist with gear 5 white form, joyful laughing expression, sun god Nika aura"
@@ -264,6 +279,7 @@
       "description": "원피스 밀짚모자 해적단의 검사. 세 자루의 검을 동시에 휘두르는 삼도류의 달인.",
       "category": "anime",
       "image_url": "https://i.namu.wiki/i/6ouRTz4zOWfJECgquY6Ew8VdmJjlvnHqSUkYECrpvlvK1VTGysrloCRbWmLVLilJyZkEiHuHnafQ5soxCSX2rX642FuKWTGw5ophlFXLEYtSB0uH-LP6513j4N72NEUVzZELxhMsrjJkLsEuU_2kqQ.webp",
+      "image_file": "조로.webp",
       "stats": {"attack": 94, "defense": 82, "speed": 78, "luck": 40, "charisma": 80},
       "rarity": "epic",
       "appearance_prompt": "Green-haired muscular swordsman with three katanas, one in mouth, green haramaki sash, intense one-eyed glare, dark green energy aura, battle stance"
@@ -274,6 +290,7 @@
       "description": "원피스의 요리사 겸 전투원. 발차기만으로 싸우며, 디아블 잠브로 불꽃 킥을 날린다.",
       "category": "anime",
       "image_url": "https://i.namu.wiki/i/tqMtuflsD6myFQJaNraFiQ-U00BHL0kktIOR2IcenABu825Vbc_LYfZ0Zby_cCjSv9MSt8MByZ7_0LcpgwOB77Ja-SK9rwceC12VWvC-LwWtKb_SmC7gORL5xDhQIY7HfsZgGJHwaqlgGIbopxh6zA.webp",
+      "image_file": "상디.webp",
       "stats": {"attack": 88, "defense": 68, "speed": 85, "luck": 60, "charisma": 78},
       "rarity": "epic",
       "appearance_prompt": "Blonde chef with curly eyebrow, black suit, cigarette in mouth, leg engulfed in flames performing a spinning kick, fiery diable jambe effect"
@@ -284,6 +301,7 @@
       "description": "나의 히어로 아카데미아. 얼음과 불의 두 가지 개성을 가진 천재 히어로 후보.",
       "category": "anime",
       "image_url": "https://i.namu.wiki/i/NrZm93qbVyGQQip9yrNpmLpIbLRlf_1mHQxmpPNdtjeCAL2nJ-hU_4d2C-rtt8VM91PapJIyt0Bl_dDH6OLD_1XbymThqSgeYe_n2icuvBycec-4__mNn9E-sxvlO03g-vNRI3JcVWEWDBVWH_N-cw.webp",
+      "image_file": "토도로키 쇼토.webp",
       "stats": {"attack": 88, "defense": 80, "speed": 75, "luck": 60, "charisma": 82},
       "rarity": "epic",
       "appearance_prompt": "Half red half white hair teenager, ice forming on right side and fire on left side, hero costume, heterochromia eyes, dual element attack pose"
@@ -294,6 +312,7 @@
       "description": "블리치의 최종 보스급 빌런. 완전최면 경화수월로 오감을 속이는 사신계의 천재.",
       "category": "anime",
       "image_url": "https://i.namu.wiki/i/thTuerquyYT9QfuZgx2b2IOBBAx-1u4qrjFy7Txmphpo04cn1zW1D4zp8TvIM9lSGyUWheRDex6rieKucA0Ur-Wrv9RwgR6U3ZBD4-wWmjd9nPOU1ltuL873kVSaJl6SgpgqylUCd3zEglOYz-J4zg.webp",
+      "image_file": "아이젠소스케.webp",
       "stats": {"attack": 92, "defense": 88, "speed": 80, "luck": 75, "charisma": 95},
       "rarity": "legendary",
       "appearance_prompt": "Brown-haired man with glasses removed, slicked back hair, white robes, holding a glowing zanpakuto, butterfly-like spiritual energy, sinister calm smile"
@@ -304,6 +323,7 @@
       "description": "북두의 권의 주인공. 북두신권 비공술로 적의 경락비공을 찌르면 이미 죽어있다.",
       "category": "anime",
       "image_url": "https://i.namu.wiki/i/kWo0dFrCeN20aEBiUbTUZaB8aRRYsQ2N4FpO-Bezq9wI1h2KpOZqMsAcpaWU1y0If_q3aSxPN216QzUWgst8guvDBCbszA7XOQwFTaOuXgcqkBsdOGS71AAwlpBc1UGNPeInhr1qHu-b1mJxWCGsMA.webp",
+      "image_file": "켄시로.webp",
       "stats": {"attack": 99, "defense": 85, "speed": 80, "luck": 50, "charisma": 88},
       "rarity": "legendary",
       "appearance_prompt": "Muscular martial artist with seven scars on chest, torn leather jacket, fist glowing with energy, post-apocalyptic desert, intense stare, 'you are already dead' pose"
@@ -314,6 +334,7 @@
       "description": "천년을 사는 엘프 마법사. 느리지만 확실한 마법으로 마왕군을 토벌했다.",
       "category": "anime",
       "image_url": "https://i.namu.wiki/i/J5hOkQxBAAR9qxFrka2j69y04fjA6Hjo7b3okdW1AWHdePQ3aw-dDTmvTAzs00_FnigX_hLkNQ9AXCC7KwXKnZHyK-3NP3ore1Mk1Ybqx5gFKil2MGjNOtHjxZPjW9asYa93wF7XTMhWn6zWMIDeRw.webp",
+      "image_file": "프리렌.webp",
       "stats": {"attack": 85, "defense": 90, "speed": 55, "luck": 70, "charisma": 80},
       "rarity": "epic",
       "appearance_prompt": "Young-looking elf girl with long white-green hair, purple and white mage robes, old grimoire floating, flower magic particles, serene melancholic expression"
@@ -324,6 +345,7 @@
       "description": "드래곤볼의 주인공. 사이어인의 전사로 에네르기파와 순간이동을 사용하는 우주 최강의 전사.",
       "category": "anime",
       "image_url": "https://i.namu.wiki/i/5HvQyapa159z_RpiaUB0JFqt5mTUsUDQJCvsNwPc8NPYZmQZNHETT0TrwVXfFd416Pf4FymegrxeU8dOrcqbo7CaN-lUvIJ0tpmde5Lnkuj2dV4qTi9Iek2KrSMKKl0egoiu1fpu6NGKJwNU3EwBWA.webp",
+      "image_file": "손오공.webp",
       "stats": {"attack": 99, "defense": 80, "speed": 95, "luck": 65, "charisma": 90},
       "rarity": "legendary",
       "appearance_prompt": "Spiky golden super saiyan hair warrior in orange gi, blue aura energy, kamehameha beam charging in hands, floating above ground, intense battle cry"
